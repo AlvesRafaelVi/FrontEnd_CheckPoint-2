@@ -1,0 +1,49 @@
+<div class="topo">
+      <div class="logo">
+        <img src="" alt="">
+      </div>
+        
+      <nav class="menu">
+        <ul class>
+          <li><a href="">Home</a></li>
+          <li><a href="./itens.html">Itens</a></li>
+          <li><a href="./sobre.html">Sobre nós</a></li>
+          <li><a href="">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul{
+  margin: 0;
+  padding:0; 
+}
+
+li{
+  list-style: none; 
+  margin: 20px;
+  display: inline;
+  font-variant: small-caps;
+}
+
+li a{
+  font-size: 30px;
+  padding: 2px 5px; 
+  margin:0;
+  /*background: rgb(243, 0, 0);*/
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius:10px;
+}
+
+li a:hover{
+  /*background:white;*/
+  color: red; 
+  border-color: #000;
+}
